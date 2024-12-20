@@ -1,0 +1,35 @@
+ <!-- Note: Internal & External m se Jo CSS bad m likhi hoi hai vo jda order leti hai... i mean vo aply hoti hai  -->
+ <!-- But agr hum Kesi CSS m ( ; ) se phele "!important" Likh de to vo Toh Aply ho jati hai   -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Tutorial</title>
+    <!-- Ye Niche hai External CSS ka Tag hai ---- isme hum alag ek CSS File banate hai -->
+    <link rel="stylesheet" href="Tut13.css">
+    <!-- Ye Niche hai Internal CSS ---- ek sth kai property use kr skte hai -->
+    <!--Isme hum Head tag k bich m <Style>tag lga kr jis kesi b Tag m CSS add krni ho uska nam likh kr -->
+    <!-- abhi m isko commentout kr ra...bcz abhi External CSS dekhni hai uper/(Selector) -->
+        <style>
+            p {
+                /* ye !important tabhi lgana agr internal CSS Aply krna ho  */
+                color: rgb(230, 34, 20) !important;
+                background-color: rgb(170, 226, 228) !important;
+            }
+            </style> 
+</head>
+<body>
+    <h3>This is CSS Tutorial</h3>
+    <!-- Ye Niche hai Inline CSS ---- ek sth kai property use kr skte hai -->
+    <!-- abhi m isko commentout kr ra...bcz abhi internal CSS dekhni hai uper  -->
+
+    <p style="color:  red; background-color: yellowgreen;">This Tutorial will teach you everything to know about HTML/CSS</p>
+    <p>This Tutorial will teach you everything to know about HTML/CSS</p>
+
+
+</body>
+
+</html>

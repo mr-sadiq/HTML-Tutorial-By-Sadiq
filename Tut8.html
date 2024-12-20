@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML form Tutorial</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <!-- Label ka fayda hai k hum jaise hi name pr click krege toh column select ho jaygi  -->
+        <div>
+            <input type="text" name="myName" id="name">
+        </div> <br>
+        <label for="number">My Number</label>
+        <div>
+            <input type="number" name="myNumber" id="number">
+        </div><br>
+        <div>
+            Role no. <input type="number" name="myRole no.">
+        </div><br>
+        <div>
+            Email <input type="email" name="myEmail">
+        </div><br>
+        <div>
+            Date <input type="date" name="myDate">
+        </div><br>
+        <div>
+            My Address <input type="Address" name="myAddress">
+        </div><br>
+        <div>
+            Are you Eligible?: <input type="checkbox" name="myEligibility">
+        </div><br>
+        <div>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div><br>
+        <div>
+            <div>
+                <label for="car">Car</label>
+                <select name="myCar" id="car">
+                    <option value="Ind" selected>Indica</option>
+                    <option value="swf">Swift</option>
+                    <option value="weg">wegnar</option>
+                </select>
+            </div><br>
+            <div>
+                Write about yourself: <br> <textarea name="myText" cols="30" rows="10"></textarea>
+            </div><br>
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div><br>
+    </form>
+</body>
+
+</html>

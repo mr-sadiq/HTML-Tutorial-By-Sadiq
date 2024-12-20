@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model </title>
+    <style>
+        .container {
+            background-color: burlywood;
+            border: 3px solid rgb(40, 4, 139);
+            /* padding: se hum Border k andar jo text hota h usko hum Top, Right, Bottom, & Left kr skte hai */
+            /* padding: 79px; */
+            /* Padding ko hum ek side se bhi kr skte hai nice dekho */
+            /* padding-top: 79px;            
+            padding-left: 79px;  
+            padding-right: 79px;  
+            padding-bottom: 79px;   */
+            /*Hum Padding ek sth alag alag px k size lga skte hai padding-top, padding-right, padding-bottom*/
+            /*padding: 79px 69px 59px 49px;*/
+            /*<<--->>*/
+            /* padding: top right bottom left; */
+            /*Padding ka ek aur tarika agr hum y(Top/Bottom) ki same & x(Left/Right) ki same dena chahe to */
+            padding: 15px 40px;
+            /* margin: se hum Border k bahar space de skte hai Top, Right, Bottom, & Left */
+            /* margin: 35px; */
+            /* Margin ko hum ek side se bhi kr skte hai nice dekho */
+            /* margin-top: 35px;
+            margin-right: 35px;
+            margin-bottom: 35px;
+            margin-left: 35px; */
+            /*Hum Margin ek sth alag alag px k size lga skte hai margin-top, margin-right, margin-bottom*/
+            /* margin: 35px 30px 28px 25px;*/
+            /*<<--->>*/
+            /* margin: top right bottom left; */
+            /*Margin ka ek aur tarika agr hum y(Top/Bottom) ki same & x(Left/Right) ki same dena chahe to  */
+            margin: 25px 35px;
+            border-radius: 25px;
+            /* Width & Height Bhi Change kr skte hai  */
+            /* width: 259px;
+              height: 100;
+              /* Agar hamne width & height  margin/ padding change ki toh andar ka Text bhi uske Hisab se set  krne k liye hum box-sizing: ka use krte hai niche deko */
+
+        }
+
+        /* Agar hamhe Body ka Backgroung change krna ho to--- hum Color & Image use kr skte h  */
+        body {
+            background-color: rgb(170 74 45);
+            /* background-image: url(/armaan.A4.jpg); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus neque non voluptatum
+            dolor. Laboriosam praesentium corrupti sint vero! Dolorem molestiae aliquam dolorum </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus neque non
+            voluptatum dolor. Laboriosam praesentium corrupti sint vero! Dolorem molestiae aliquam dolorum </p>
+    </div>
+
+    <div class="container">
+        <h3>This is my Heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi necessitatibus neque non voluptatum
+            dolor. Laboriosam praesentium corrupti sint vero! Dolorem molestiae aliquam dolorum </p>
+    </div>
+</body>
+
+</html>

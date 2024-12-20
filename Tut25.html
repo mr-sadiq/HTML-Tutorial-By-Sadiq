@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            background-color: khaki;
+            height: 3444px;
+        }
+
+        /* Types of CSS position: static (Default), relative, absolute,  fixed, sticky */
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        #box3 {
+            /* static by default hota hai  */
+            /* relative use krne se vo  ---- apni normal position se vo hilega */
+            /* position: relative; */
+            /* top: 34px;
+               left: 34px; */
+            /* absolute use krne se ---- jo iska Parent hai uske hisab se sift ho jayga */
+            /* position: absolute; */
+            /* top: 34px; 
+            left: 134px; */
+            /* fixed use krne se ---- chahe container kitna b bda ho kitna b scroll kr lo but vo fixed rhega jha hum kr denge */
+            /* position: fixed; */
+            /* right: 10px;
+               bottom: 5px; */
+            /* sticky use krne se ---- box Apni jgha rhega chahe scroll kr lo kita b  */
+            position: sticky;
+            top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+</html>

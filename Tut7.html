@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Lists </title>
+</head>
+
+<body>
+    <!-- ul attributes -- type="disc","square", "circle" Unordered List m ye sb attributes use kr skte hai hum  -->
+    <ul type="disc">
+        <li>This is First item of my unordered List </li>
+        <li>This is Second item of my unordered List </li>
+        <!-- List k andar list add kr skte hai  -->
+        <ol type="i">
+            <li>Another One </li>
+            <li>Another Two </li>
+            <li>Another Three </li>
+        </ol>
+
+        <li>This is Third item of my unordered List </li>
+        <li>This is Fourth item of my unordered List </li>
+    </ul>
+    <hr>
+    <!-- ol attributes ---- type="1" , "A" , "a" , "i" , "I" Order List m ye sb attributes use kr skte hai hum -->
+    <ol type="1">
+        <li>This is First item of my ordered List </li>
+        <li>This is Second item of my ordered List </li>
+        <!-- List k andar list add kr skte hai  -->
+        <ul>
+            <li>Another one</li>
+            <li>Another Second </li>
+            <li>Another Third </li>
+        </ul>
+        <li>This is Third item of my ordered List </li>
+        <li>This is Fourth item of my ordered List </li>
+    </ol>
+    <!-- Tables == Table tag k andar 2 tag aur hote hai <thead> & <tbody> -->
+    <h3>HTML Table</h3>
+    <table cellspacing="3" bgcolor="#000000">
+        <thead>
+            <!-- thead tag m <tr> tag/Table row k andar <th> tags lga kr Heading likhte hai  -->
+                <!--a gr humhe table ki different heading ki jagha bas 1 ki use krni ho to <tr colspan="3"> kr k bas ek hi heading likh denge-->
+            <tr bgcolor="#ffffff">
+                <th>Name</th>
+                <th>Employee id</th>
+                <th>Employee Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- tbody tag m <tr> tag/table row k andar <td> tags lga kr Table Data likhte hai  -->
+            <tr bgcolor="#ffffff">
+                <td>Arman</td>
+                <td>210711106016</td>
+                <td>Programmer</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+                <td>Sadiq</td>
+                <td>210711106015</td>
+                <td>Tester</td>
+            </tr>
+            <tr bgcolor="#ffffff">
+                <td>Saifu</td>
+                <td>210711106014</td>
+                <td>developer</ </tr>
+        </tbody>
+        <!-- ye jo red higlights word hai ye google se liye tb table ki border line aai -->
+        
+    </table>
+</body>
+
+</html>

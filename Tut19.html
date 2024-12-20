@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, Width, Borders and Backgrounds</title>
+    <style>
+        #firstPara {
+            background-color: red;
+            /*Background color dene k liye */
+            height: 100px;
+            /* jisme hamara Para likha hota h (Border) -- uski height bhda deta hai */
+            width: 450px;
+            /*jisme hamara Para likha hota h (Border) --uski Wedth yani Chodai km ya jda krta h*/
+            border-width: 4px;
+            /* Border ko mota ya patla krne k liye */
+            border-color: green;
+            /* Border color dene k liye*/
+            border-style: solid;
+            /* Solid se hi border ki outline dekti hai*/
+            /* border: 4px solid green; <----> Uper ki 3 statement hum ek line se bhi likh skte hai  */
+            border-radius: 10px;
+            /* Radius se border k kono ko shap de jati hai*/
+        }
+
+        #secondPara {
+            background-color: green;
+            height: 100px;
+            width: 450px;
+            /* Agar hamhe Border ki Charo side different color ya radius ka border chahiye to */
+            border-top: 4px solid rgb(255, 2, 2);
+            border-left: 4px dotted blue;
+            border-right: 4px double rgb(0, 0, 0);
+            border-bottom: 4px solid rgb(8, 8, 8);
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+
+        #thirdPara {
+            color: rgb(255, 255, 255);
+            height: 550px;
+            width: 450px;
+            background-image: url("/armaan.A4.jpg");
+            /* Link Google se lekr b lga skte hai*/
+            border: 2px sloi red;
+            background-repeat: no-repeat;
+            /* repeat-x and repeat-y ,repeat and no repeat---image ko set krne k liye*/
+            background-position: center;
+            /*background image set krne k liye i mean bich m ya left/right,top/bottom*/
+            background-size: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is Heading</h3>
+    <p id="firstPara">This is a Paragraph</p>
+    <h3>This is Second Heading</h3>
+    <p id="secondPara">This is a Second Paragraph</p>
+    <h3>This is third Heading</h3>
+    <p id="thirdPara">This is a third Paragraph</p>
+</body>
+
+</html>

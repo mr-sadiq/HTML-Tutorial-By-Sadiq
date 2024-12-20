@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & designing</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(124, 228, 103);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+
+        a {
+            text-decoration: none;
+            /*Isse text m jo bhi underline ya fir bold hta skte hai*/
+            color: black;
+        }
+
+        a:hover {
+            color: rgb(68, 9, 9);
+            /*isse bss text change hoga jb curcle layge text pr*/
+            background-color: rgb(218, 118, 118);
+            /*isse andar ka backgruond change hoga curcle lgane pr*/
+        }
+
+        /*  a:visited{
+     background-color: yellow;    
+          }               <<-->> Agr hamne link open kia hua hai kabhi toh ye text ka color change kr dega*/
+
+        /*  a:active{
+        background-color: darkblue;     
+      }                                  <<-->>Agr hum link pe click krege to uska color change hoga */
+
+        .btn:hover {
+            background-color: rgb(218, 118, 118);
+            border: 2px solid black;
+        }
+
+        .btn {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: rgb(220, 20, 20);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my Heading </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia culpa recusandae vitae tenetur facilis,
+            natus, debitis libero dolorem adipisci quis, at excepturi mollitia illum harum modi tempora! Nesciunt, quo
+            inventore!</p>
+        <a href="/Tut10.html" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+
+</html>
